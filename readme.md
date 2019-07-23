@@ -79,7 +79,6 @@ Toda a documentação necessária para completar o projeto pode ser encontrada n
 Os participantes podem acessar outras referências encontradas na internet.
 ### 3.2 Wireframe e Referências
 O arquivo wireframe.pdf deve ser utilizado como referência para a criação do projeto. O site htpps://future4.com.br pode ser considerado uma página interessante para utilizar como referência.  
-Caso o participante queira incluir o desafio adicional de preparar o site para mobile, existe um arquivo separado de referência (wireframeMobile.pdf).
 ## 4 E agora? O que fazer?
 Sabemos que aprender a programar pode ser muito desafiador. Aqui seguem algumas dicas de como seguir no desafio de criar um site:  
 - Vá seguindo os tutoriais da w3schools.com .  
