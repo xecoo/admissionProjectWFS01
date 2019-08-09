@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html lang="Por-Bra">
-    <head>
-        <title>Projeto Seletivo Future4</title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="style.css">
-        
-    </head>
-    <body>
+  <head>
+    <title>Projeto Seletivo Future4</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+      <script>
+        function clicar() {
+          var email = document.getElementById("email").innerHTML;
+          alert("O e-mail" + email.value + "enviado com sucesso");
+        }
+      </script>
+  </head>
+      <body>
         <h1><b>Projeto Seletivo Future4</b></h1>
         <p><img src="future4.jpg" alt="logo do astronauta future4" width="600px" height="300px"></p>
         <p id="p01">Turma Web Full Stack 01</p>
-    
-       
-        <table style="width: 100%">
-         <tr>
-            <th>HTML</th>
-            <th>CSS</th>
-            <th>Javascript</th>
-        </tr>
-        </table>
-
-        <table>
-          <p>
-            <form action="/action_page.php">
-             <input type="email" name="email">
-             <input type="Submit" value="Enviar">
-            </form>
-          </p>
-        </table>
         
-    </body>
+        <table style="width: 100%">
+            <tr>
+              <th>HTML</th>
+              <th>CSS</th>
+              <th>Javascript</th>
+            </tr>
+         </table>
+         <table>
+            
+            <p class="email">
+              <input type="email" id="email" placeholder="Coloque o seu e-mail aqui" name="email" />
+              <input type="submit" onclick=clicar() value="Enviar">
+            </p>
+            
+          </table>    
+      
+      
+       </body>
 </html>
