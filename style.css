@@ -21,19 +21,42 @@ p {
   margin-top: 200px;
 }
 
-table, th, td {
-  border: 45px solid rgb(255, 94, 0);
+table {
   border-collapse: collapse;
   text-align:center;
   }
-th, td {
+
+.t01 th, td {
+  border: 45px solid rgb(255, 94, 0);
   padding: 80px;
   background-color: white;
   font-size: 45px;
   color: rgb(255, 94, 0);
+ }
+
+.t02 {
+ background-color: rgb(177, 172, 172);
+ border: 120px solid rgb(177, 172, 172);
+ 
 }
 
-p.email {
+.email input {
+  width: 450px;
+  height: 50px;
+  font-weight: bold;
+  border: 2px solid;
+  font-size: 20px;
   
-}
+ }
 
+ .btn{
+  width: 105px;
+  height: 55px;
+  font-weight: bold;
+  text-align:center;
+  background-color: orangered;
+  border: 2px solid black;
+  Color:white;
+  font-size: 20px;
+  font-family: Arial;
+ }
